@@ -600,6 +600,19 @@ function clearMagicMirror() {
   const section = document.getElementById("magicHeartSection");
   if (section) section.style.display = "none";
 }
+    
+function showNewsSection() {
+  clearMagicMirror();
+  clearSecretChessBoard();
+  document.getElementById("content").style.display = "none";
+  document.getElementById("examSection").style.display = "none";
+  document.getElementById("chessText").style.display = "none";
+  document.getElementById("booksSection").style.display = "none";
+  document.getElementById("magicHeartSection").style.display = "none";
+  document.getElementById("secretChessBoardSection").style.display = "none";
+  document.getElementById("newsSection").style.display = "block";
+  document.getElementById("menu").style.display = "none";
+}
 
 </script>
 
